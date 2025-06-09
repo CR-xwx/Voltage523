@@ -1,0 +1,17 @@
+{
+  "Name": "VoltageSimTest",
+  "Description": "Voltage Simulator Configuration",
+  "PartNumber": "VS0001",
+  "Type": "VoltageSimulator",
+  "Transceiver": "VoltageSim.dll",
+  "TransceiverConfig": [
+    {
+    "device": "Dev1/ao0",
+    "mode": "swTimedLoop",
+    "sampleRate": 3.3,
+    "loopCount": 1000,
+    "intervalMs": 1
+}
+
+  ]
+}
